@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Trixium Technologies — Electronics, Drones, Edutech, Defence and R&D. Design, prototyping and productization for advanced systems.">
+    <title>Trixium Technologies — Electronics · Drones · Edutech · Defence · R&D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="logo-badge" href="/">
+      <img src="assets/Trixium%20Technologies.png" alt="Trixium Technologies logo">
+      <span class="badge-text">Trixium Technologies</span>
+    </a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#"></a>
+        <nav class="nav" id="nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="cta">Contact</a>
+        </nav>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <video id="bgVideo" class="bg-video" autoplay muted loop playsinline poster="assets/bg-poster.jpg">
+            <source src="assets/bg.mp4" type="video/mp4">
+            <!-- fallback: a static image will show if video not supported -->
+          </video>
+          <h1>Engineering the future of Electronics & Autonomous Systems</h1>
+          <p class="lead">Drones · Defence · Edutech · R&D Electronics — design, prototyping, and productization.</p>
+          <p>
+            <a class="btn primary" href="#contact">Get in touch</a>
+            <a class="btn ghost" href="#projects">View projects</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <h2>Our Expertise</h2>
+          <div class="grid grid-4">
+            <article class="card">
+              <h3>Electronics</h3>
+              <p>PCB design, embedded firmware, sensor integration and manufacturing-ready electronics.</p>
+            </article>
+            <article class="card">
+              <h3>Drones & UAVs</h3>
+              <p>Autonomous platforms, flight controllers, payload integration, and testing for aerial systems.</p>
+            </article>
+            <article class="card">
+              <h3>Edutech</h3>
+              <p>Training platforms, simulation tools, and educational kits for electronics and robotics learning.</p>
+            </article>
+            <article class="card">
+              <h3>Defence & R&D</h3>
+              <p>Secure systems, ruggedized electronics, rapid prototyping, and collaborative R&amp;D programs.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2>Selected Projects</h2>
+          <div class="grid grid-3">
+            <figure class="project">
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='360'><rect width='100%' height='100%' fill='%23e7eef8'/><text x='50%' y='50%' font-size='20' dominant-baseline='middle' text-anchor='middle' fill='%23666'>Prototype Drone — Flight Control</text></svg>" alt="project">
+              <figcaption>Prototype Drone — Flight Control</figcaption>
+            </figure>
+            <figure class="project">
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='360'><rect width='100%' height='100%' fill='%23f6f3e8'/><text x='50%' y='50%' font-size='20' dominant-baseline='middle' text-anchor='middle' fill='%23666'>R&amp;D: Adaptive Sensors</text></svg>" alt="project">
+              <figcaption>R&amp;D: Adaptive Sensors</figcaption>
+            </figure>
+            <figure class="project">
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='360'><rect width='100%' height='100%' fill='%23eef8f1'/><text x='50%' y='50%' font-size='20' dominant-baseline='middle' text-anchor='middle' fill='%23666'>Edutech Kit — Robotics Lab</text></svg>" alt="project">
+              <figcaption>Edutech Kit — Robotics Lab</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2>About Trixium</h2>
+          <p>We are a multidisciplinary team of engineers and researchers focused on electronics, autonomy, and applied R&amp;D. We partner with industry and academia to take ideas from concept to production.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Interested in collaborating? Reach out and we'll schedule a discovery call.</p>
+          <form class="contact-form" action="#" onsubmit="return false;">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="4"></textarea>
+            <button class="btn primary" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> Trixium Technologies — All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
