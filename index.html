@@ -19,7 +19,16 @@
       <div class="container header-inner">
         <a class="brand" href="#"></a>
         <nav class="nav" id="nav" aria-label="Primary">
-          <a href="#services">Services</a>
+          <div class="dropdown" role="menu">
+            <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">Our Products ▾</button>
+            <div class="dropdown-menu" aria-label="Our Products">
+              <a href="#product-electronics">Electronics</a>
+              <a href="#product-drones">Drones</a>
+              <a href="#product-edutech">Edutech</a>
+              <a href="#product-defence">Defence &amp; R&amp;D</a>
+            </div>
+          </div>
+          <a href="#services">Services We Offer</a>
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
           <a href="#contact" class="cta">Contact</a>
@@ -41,6 +50,30 @@
             <a class="btn primary" href="#contact">Get in touch</a>
             <a class="btn ghost" href="#projects">View projects</a>
           </p>
+        </div>
+      </section>
+
+      <section id="products" class="section products">
+        <div class="container">
+          <h2>Our Products</h2>
+          <div class="grid grid-4">
+            <article id="product-electronics" class="card">
+              <h3>Electronics</h3>
+              <p>We design and develop production-ready electronics from concept to manufacture. Services include schematic capture, PCB layout, component selection, embedded firmware, sensor integration, and thermal/EMC validation. We focus on rugged, low-power designs and DFM-ready layouts to accelerate time-to-market and simplify certification and scaling for volume production.</p>
+            </article>
+            <article id="product-drones" class="card">
+              <h3>Drones</h3>
+              <p>End-to-end UAV development for autonomous and semi-autonomous platforms. We build flight controllers, autopilots, navigation and sensor fusion stacks, payload integration (imaging, LiDAR, inspection), and flight testing workflows. Emphasis on reliability, safety, and regulatory compliance for commercial and research deployments.</p>
+            </article>
+            <article id="product-edutech" class="card">
+              <h3>Edutech</h3>
+              <p>Hands-on learning products and curricula for electronics, embedded systems, and robotics. We create modular kits, simulation tools, instructor guides, and lab exercises that teach circuit design, microcontroller programming, control systems, and systems integration — ideal for universities, training centers, and STEM outreach programs.</p>
+            </article>
+            <article id="product-defence" class="card">
+              <h3>Defence &amp; R&amp;D</h3>
+              <p>Secure, ruggedized systems and collaborative R&amp;D services for defense and advanced projects. Capabilities include rapid prototyping, environmental hardening, secure firmware/boot strategies, systems engineering, and field validation to mature concepts through TRL milestones toward operational deployment.</p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -92,6 +125,32 @@
         <div class="container">
           <h2>About Trixium</h2>
           <p>We are a multidisciplinary team of engineers and researchers focused on electronics, autonomy, and applied R&amp;D. We partner with industry and academia to take ideas from concept to production.</p>
+        </div>
+      </section>
+
+      <section id="team" class="section team">
+        <div class="container">
+          <h2>Our Team</h2>
+          <div class="grid grid-3">
+            <article class="card team-member">
+              <img src="assets/pintu.jpeg" alt="Pintu Kumar">
+              <h3 class="team-name">Pintu Kumar</h3>
+              <p class="team-designation">Founder & Chief Electronics Engineer</p>
+              <p class="team-bio">Leads hardware architecture, PCB design and manufacturing transitions for embedded systems and high-reliability products.</p>
+            </article>
+            <article class="card team-member">
+              <img src="assets/ansu.jpeg" alt="Ansuman Mishra">
+              <h3 class="team-name">Ansuman Mishra</h3>
+              <p class="team-designation">Founder & Autonomy Systems Lead</p>
+              <p class="team-bio">Specialises in flight control, sensor fusion and autonomy stacks for aerial and ground vehicles.</p>
+            </article>
+            <article class="card team-member">
+              <img src="assets/smruti.jpeg" alt="Smruti Mishra">
+              <h3 class="team-name">Smruti Mishra</h3>
+              <p class="team-designation">Founder & Edutech</p>
+              <p class="team-bio">Designs curriculum, lab kits and hands-on training programs for universities and industry partners.</p>
+            </article>
+          </div>
         </div>
       </section>
 
